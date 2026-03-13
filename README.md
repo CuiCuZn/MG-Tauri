@@ -25,6 +25,8 @@ tauri-app/
 ├── src-tauri/                # Rust 后端源代码
 │   ├── capabilities/         # Tauri 权限配置
 │   │   └── default.json      # 默认权限
+│   ├── gen/                  # Tauri 自动生成的代码
+│   │   └── schemas/           # JSON Schema 文件
 │   ├── icons/                # 应用图标
 │   ├── src/
 │   │   ├── lib.rs            # Rust 库入口（核心逻辑）
